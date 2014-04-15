@@ -1,0 +1,40 @@
+#canvas {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	float: left;
+	margin-bottom: 20px;	
+	text-align: center;
+}
+
+.dim {
+	margin-right: 2px;	
+}
+
+#dim_input {
+	text-align: right;
+}
+
+#domain, #error {
+	font-size: 22pt;
+	text-align: center;
+}	
+
+#equations {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 50%;
+}
+
+#equs_box {
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+}
