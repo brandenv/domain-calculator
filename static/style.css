@@ -7,7 +7,10 @@
 
 .column {
 	float: left;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
+}
+
+.column, h1, #source {
 	text-align: center;
 }
 
@@ -35,6 +38,6 @@
 	text-align: left;
 }
 
-h1 {
-	text-align: center;
+#source {
+	clear: left;	
 }
