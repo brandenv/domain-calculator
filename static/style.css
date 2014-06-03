@@ -10,7 +10,7 @@
 	margin-bottom: 20px;
 }
 
-.column, h1, #source {
+.column, h1 {
 	text-align: center;
 }
 
@@ -39,5 +39,6 @@
 }
 
 #source {
-	clear: left;	
+	clear: left;
+	text-align: center;
 }
