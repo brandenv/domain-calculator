@@ -12,7 +12,7 @@ of integration to calculate the iterated integral of f(x, y).
 
 Some examples of valid input syntax include:
 
-        y = 2x^2 + 1, x = sin(y) + 3cos(2y), x = abs(-4), y = 3sqrt(2x)
+        y = 2x^2 + 1, x = sin(y) + 3cos(2y), x = abs(4), y = 3sqrt(2x)
         
         
 Note that domain-calculator is still in progress and is not yet fully functinal for all types of input.
