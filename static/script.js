@@ -243,7 +243,7 @@
         
         // regular expressions used to identify term type
         var constantRegex = /^[-+]?([0-9]*\.[0-9]+|[0-9]+)$/;       // select constant functions
-        var linearRegex   = /^[-+]?([0-9]*\.[0-9]+|[0-9])(x|y)$/;   // select polynomial terms of degree 1
+        var linearRegex   = /^[-+]?([0-9]*\.[0-9]+|[0-9]*)(x|y)$/;  // select polynomial terms of degree 1
         var powerRegex    = /\^/;                                   // select polynomial terms of degree >= 2 (ax^b)
         var sqrtRegex     = /sqrt\(/;                               // select terms of the form c*sqrt(ax)
         var mathRegex     = /(abs|acos|asin|atan|ceil|cos|exp|floor|log|round|sin|sqrt|tan)/;
